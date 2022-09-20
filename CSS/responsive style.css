@@ -1,0 +1,12 @@
+@media (max-width: 991px){
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+    .story-section{
+        padding-top: 20px;
+    }
+    h2{
+        font-size: 40px;
+    }
+   
+}

@@ -1,0 +1,232 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar{
+    padding: 0;
+}
+.navbar img{
+    width: 80%;
+    height: 80%;
+}
+.navigation-wrap.scroll-on{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.main-btn{
+    padding: 5px;
+    margin-top: -5px;
+    border: 1px solid rgb(168, 44, 72);
+    color: rgb(168, 44, 72);
+    font-weight: bold;
+    background: white;
+    transition: 1s;
+}
+.main-btn:hover{
+    background-color: rgb(168, 44, 72);
+    color: white;
+    border: 1px solid rgb(252, 252, 252);
+
+}
+.secondary-btn{
+    padding: 5px;
+    margin-top: -5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 1s;
+    background: white;
+    box-shadow: 0 0 5px black ;
+    border: none;
+}
+.secondary-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(168, 44, 72);
+    border: none;
+}
+.top-banner{
+    width: 100%;
+    background: url("../Images/bg/bg-1.jpg") no-repeat;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+.counter-section{
+    background-color: rgb(168, 44, 72);
+    padding: 2.5rem 0;
+    color: white;
+}
+.counter-section p{
+    color: white;    
+    text-transform: uppercase;
+}
+.about-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.about-section .card, 
+.about-section .card img{
+    border-radius: 0.25rem;
+}
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    line-height: 32px;
+    position: relative;
+    font-weight:bold;
+    list-style: none;
+}
+.story-section{
+    width:100%;
+    background: url("../Images/bg/bg-2.jpg") no-repeat center;
+    text-align: center;
+}
+.story-section h2{
+    color:rgb(168, 44, 72) ;
+}
+.explore-section{
+    text-align: center;
+
+}
+.explore-section h2{
+    color:rgb(168, 44, 72) ;
+}
+.explore-section .card{
+    text-align: left;
+    border-radius: 0.9375rem;
+}
+.explore-section .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+.explore-section .card span{
+    display: block;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid white;
+    color:rgb(168, 44, 72) ;
+
+}
+.explore-section .card span del{
+        color: gray;
+        margin-left: 0.5rem;
+}
+.testimonial-section{
+    background-color:rgb(168, 44, 72) ;
+    color: black;
+}
+
+
+
+.testimonial-section  h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+    color: white;
+}
+.testimonial-section h2::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: white;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+    opacity: .8;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel p{
+	color: white;
+}
+.carousel-item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #db584e;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 3px 3px #000000, 0 0 0 rgb(240, 237, 237);
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.book-food{
+    width: 100%;
+    background: url("../Images/bg/bg-3.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding:5rem 4.375rem;
+    color: white;
+    font-weight: bolder;
+}
+.book-food button{
+    padding: 10px 10px;
+}
+.footer{
+    background-color: rgba(168, 44, 72) ;
+    color: white;
+}
